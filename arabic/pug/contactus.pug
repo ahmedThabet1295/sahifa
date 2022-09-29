@@ -1,0 +1,53 @@
+extends index
+block home_block
+    div(class="main-breadcrumb")
+        div(class="container")
+            ul(class="breadcrumb")
+                li(class="breadcrumb-item")
+                    a(href="#!") الرئيسية
+                li(class="breadcrumb-item active")
+                    a(href="#!") تواصل معنا
+                        
+    section(class="contact-us report-section wow fadeInUp",  data-wow-duration="1s" data-wow-delay="1s")
+        div(class="container")
+            div(class="page-title  wow slideInUp" data-wow-duration="1.3s" data-wow-delay="0s")
+                h4 تواصل معنا
+            div(class="page-description")
+                p  تواصل معنا  لحل اي مشكله قد تصادفك او استفسار!
+            div(class="content modal-form")
+                div(class="row")
+                    div(class="col-md-10")
+                        form(class="needs-validation" novalidate)
+                            div(class="row")
+                                div(class="col-md-6")  
+                                    div(class="form-floating mb-3")
+                                        input#username(type="text", class="form-control", placeholder="الاسم" required)
+                                        label(for="username") الاسم
+                                div(class="col-md-6")         
+                                    div(class="form-floating mb-3")
+                                        input#email(type="email", class="form-control", placeholder="البريد الالكتروني" required)
+                                        label(for="email") البريد الالكتروني *
+                                div(class="col-md-6")         
+                                    div(class="form-floating mb-3")
+                                        input#subject(type="text", class="form-control", placeholder="العنوان" required)
+                                        label(for="subject") الموضوع  
+                                div(class="col-md-6")         
+                                    div(class="form-floating mb-3")
+                                        input#distance(type="text", class="form-control", placeholder="الجهة او الادارة" required)
+                                        label(for="distance") الادارة او الجهة   
+                                div(class="col-md-12")     
+                                    div(class="form-floating mb-3")
+                                        textarea#comments(class="form-control", placeholder="الرسالة ",required)
+                                        label(for="comments") الرسالة *
+                                        
+                                div(class="col-md-3") 
+                                    div(class="verify_code mb-3")
+                                        label(for="text") كلمة التحقق
+                                        p(id="code")
+                                div(class="col-md-9")
+                                    div(class="form-inline mb-3")
+                                        label ما هو الرمز الموجود في الصورة ؟
+                                        input(class="form-control",type="text")
+                            button(type="submit", class="btn btn-primary ") ارسال
+
+

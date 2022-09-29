@@ -1,0 +1,98 @@
+extends index
+block home_block
+    div(class="main-breadcrumb")
+        div(class="container")
+            ul(class="breadcrumb")
+                li(class="breadcrumb-item")
+                    a(href="index.html") الرئيسية
+                li(class="breadcrumb-item active")
+                    a(href="#!") المقالات 
+                        
+    section(class="article-section wow fadeInUp",  data-wow-duration="1s" data-wow-delay="1s")
+        div(class="container")
+            div(class="page-title")
+                h4 المقالات 
+            div(class="content") 
+                div(class="row")
+                    div(class="col-md-6 wow fadeInRight",  data-wow-duration="1s" data-wow-delay="1.5s")
+                        div(class="article-box")
+                            div(class="article-thumbnail")
+                                img(src="../images/articles/01.png",alt="article",class="img-fluid")
+                                div(class="author")
+                                    p .د. جنان عبدالعزيز التميمي أستاذ اللسانيات
+                            div(class="article-text")
+                                h5
+                                    a(href="single-article.html") القـراءة المشتتـة
+                                p(class="article-desc") هل صادف وفتحت تويتر أو انستغرام ووجدت الخط الزمني على شاشة هاتفك يمر سريعا باقتباسات متوالية: "احذر الاحتراق الوظيفي" ومن بعدها: " كن كالشمعة تحترق لتضيء للآخرين"، ثم اقتباس آخر: "إن جذر السعادة هو الإيثار"، يأتي بعده مباشرة: "كن أنانيا...
+
+                                div(class="read-more")
+                                    a(href="single-article.html")
+                                        span تابع القراءة
+                                        i(class="bi bi-chevron-double-left")
+                    div(class="col-md-6 wow fadeInLeft",  data-wow-duration="1s" data-wow-delay="1.5s")
+                        div(class="article-box")
+                            div(class="article-thumbnail")
+                                img(src="../images/articles/02.png",alt="article",class="img-fluid")
+                                div(class="author")
+                                    p الصيدلانية: إسراء عبدالله العثمان
+                            div(class="article-text")
+                                h5
+                                    a(href="single-article.html") أهدافنا الوظيفية للعام الجديد
+                                p(class="article-desc") أن تخصيص الموظف وقت لكتابة أهدافه للسنة الجديدة يمنحه الفرصة للتأمل والنظر الى طموحاته والتركيز على تحقيقها على أرض الواقع بقدر أكبر ممن يسير في حياته دون تخطيط، إضافة إلى تعزز روح التحدي لديه ليصل إلى أقصى النجاحات...
+
+                                div(class="read-more")
+                                    a(href="single-article.html")
+                                        span تابع القراءة
+                                        i(class="bi bi-chevron-double-left")
+                    div(class="col-md-6 wow fadeInRight",  data-wow-duration="1s" data-wow-delay="1.5s")
+                        div(class="article-box")
+                            div(class="article-thumbnail")
+                                img(src="../images/articles/03.png",alt="article",class="img-fluid")
+                                div(class="author")
+                                    p أستاذ الهندسة الكهربائية المساعد بكلية الهندسة بوادي الدواسر الدكتور أحمد متولي ناصف
+                            div(class="article-text")
+                                h5
+                                    a(href="single-article.html") صمت الأرض يتحدث
+                                p(class="article-desc") وأخيرا أفاق العالم على حتمية الحفاظ على هذا الكوكب (كوكب الأرض) الذي نعيش فيه ويضمنا جميعا. الكوكب الذي طالما عانى ومازال يعاني من خطر التغير المناخي بسبب بني الإنسان. فهناك دول كثيرة تعاني من التصحر وشُح المياه والحرائق وأخرى تعاني من الفيضانات والأعاصير والانهيارات الثلجية....
+
+                                div(class="read-more")
+                                    a(href="single-article.html")
+                                        span تابع القراءة
+                                        i(class="bi bi-chevron-double-left")
+                    div(class="col-md-6 wow fadeInRight",  data-wow-duration="1s" data-wow-delay="1.5s")
+                        div(class="article-box")
+                            div(class="article-thumbnail")
+                                img(src="../images/articles/04.png",alt="article",class="img-fluid")
+                                div(class="author")
+                                    p الصيدلانية: إسراء عبدالله العثمان
+                            div(class="article-text")
+                                h5
+                                    a(href="single-article.html") مساحات تويتر.. تبادل معرفي وفكري
+                                p(class="article-desc") إن مسايرة الانفجار المعرفي، والاستفادة من التقدم التكنولوجي في إيصال المعرفة الجديدة لكل فرد نظرا للتقدم المتسارع في مجال العلم والمعرفة الذي نعيشه في هذا العصر يتطلب من الفرد الاستمرار في التعلم، فلم يعد من المجدي أن يقف المرء عن التعلم بمجرد انتهاء سنوات التعلم في المراحل الدراسية فقط ....
+
+                                div(class="read-more")
+                                    a(href="single-article.html")
+                                        span تابع القراءة
+                                        i(class="bi bi-chevron-double-left")
+                            
+                div(class="pagination navigation")
+                    nav(aria-label="Page navigation example")
+                        ul(class="pagination")
+                            li(class="page-item prev")
+                                a(class="page-link", href="#", aria-label="Previous")
+                                    span(aria-hidden="true"  class="bi bi-chevron-right")
+                            li(class="page-item active")
+                                a(class="page-link", href="#") 1
+                            li(class="page-item")
+                                a(class="page-link", href="#") 2
+                            li(class="page-item")
+                                a(class="page-link", href="#") ...
+                            li(class="page-item")
+                                a(class="page-link", href="#") 9
+                            li(class="page-item")
+                                a(class="page-link", href="#") 10        
+                            li(class="page-item")
+                                a(class="page-link next", href="#", aria-label="Next")
+                                    span(aria-hidden="true"  class="bi bi-chevron-left")
+
+                                                                            

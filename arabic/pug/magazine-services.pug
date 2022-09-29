@@ -1,0 +1,120 @@
+extends index
+block home_block
+    div(class="main-breadcrumb")
+        div(class="container")
+            ul(class="breadcrumb")
+                li(class="breadcrumb-item")
+                    a(href="index.html") الرئيسية
+                li(class="breadcrumb-item active")
+                    a(href="#!") خدمات الصحيفة 
+                        
+    section(class="mag-servcies-section report-section wow fadeInUp",  data-wow-duration="1s" data-wow-delay="1s")
+        div(class="container")
+            div(class="page-title")
+                h4 خدمات الصحيفة 
+                p  توفر الصحيفة مجموعة من الخدمات التي تساهم في تطوير الجامعة    
+            div(class="content magazine-services") 
+                div(class="magazine-grid")
+                    div(class="magazine-box")
+                        img(src="../images/services/1.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!",data-bs-toggle="modal" data-bs-target="#messageModal") ارسال مناسبة
+                    div(class="magazine-box")
+                        img(src="../images/services/2.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") حجز مسرح
+                    div(class="magazine-box")
+                        img(src="../images/services/3.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") حدث او فعالية طلب تصوير
+                    div(class="magazine-box")
+                        img(src="../images/services/4.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") روزنامة الفعاليات
+                    div(class="magazine-box")
+                        img(src="../images/services/5.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") تحويل التاريخ
+                    div(class="magazine-box")
+                        img(src="../images/services/6.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") الطقس اليوم 
+                    div(class="magazine-box")
+                        img(src="../images/services/1.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!",data-bs-toggle="modal" data-bs-target="#messageModal") ارسال مناسبة
+                    div(class="magazine-box")
+                        img(src="../images/services/2.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") حجز مسرح
+                    div(class="magazine-box")
+                        img(src="../images/services/3.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") حدث او فعالية طلب تصوير
+                    div(class="magazine-box")
+                        img(src="../images/services/4.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") روزنامة الفعاليات
+                    div(class="magazine-box")
+                        img(src="../images/services/5.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") تحويل التاريخ
+                    div(class="magazine-box")
+                        img(src="../images/services/6.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") الطقس اليوم  
+                    div(class="magazine-box")
+                        img(src="../images/services/1.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!",data-bs-toggle="modal" data-bs-target="#messageModal") ارسال مناسبة
+                    div(class="magazine-box")
+                        img(src="../images/services/2.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") حجز مسرح
+                    div(class="magazine-box")
+                        img(src="../images/services/3.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") حدث او فعالية طلب تصوير
+                    div(class="magazine-box")
+                        img(src="../images/services/4.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") روزنامة الفعاليات
+                    div(class="magazine-box")
+                        img(src="../images/services/5.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") تحويل التاريخ
+                    div(class="magazine-box")
+                        img(src="../images/services/6.svg",alt="services",class="img-fluid")
+                        h4
+                            a(href="#!") الطقس اليوم 
+                                                    
+    #messageModal(class="modal fade messageModal", tabindex="-1", aria-labelledby="exampleModalLabel", aria-hidden="true")
+        div(class="modal-dialog")
+            div(class="modal-content")
+                div(class="modal-header") 
+                    div(class="modal-title")
+                        img(src="../images/services/1.svg",alt="services",class="img-fluid")
+                        h4 ارسال مناسبة 
+                    button(type="button", class="close", data-bs-dismiss="modal", aria-label="Close")
+                        i(class="bi bi-x-lg")
+                div(class="modal-body")
+                    div(class="modal-form")
+                        form
+                            div(class="row")
+                                div(class="col-6") 
+                                    div(class="mb-3") 
+                                        input#username(type="text", class="form-control", aria-describedby="username",placeholder="الاسم") 
+                                div(class="col-6")         
+                                    div(class="mb-3") 
+                                        input#exampleInputEmail1(type="email", class="form-control", aria-describedby="emailHelp",placeholder="البريد الالكتروني") 
+                                div(class="col-6")         
+                                    div(class="mb-3") 
+                                        input#mobilenumer(type="text", class="form-control",placeholder="رقم الهاتف") 
+                                div(class="col-6")         
+                                    div(class="mb-3") 
+                                        input#location(type="text", class="form-control",placeholder="الجهة او الاداراة ")   
+                                div(class="col-12")   
+                                    div(class="mb-3") 
+                                        textarea#exampleFormControlTextarea1(class="form-control", rows="10",placeholder="تفاصيل المناسبة") 
+                            button(type="submit", class="btn btn-primary") ارسال
+

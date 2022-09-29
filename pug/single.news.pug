@@ -1,0 +1,60 @@
+extends index
+block home_block
+    div(class="main-breadcrumb")
+        div(class="container")
+            ul(class="breadcrumb")
+                li(class="breadcrumb-item")
+                    a(href="#!") Main Page
+                li(class="breadcrumb-item active")
+                    a(href="#!") News 
+    div(class="single-news wow fadeInUp",  data-wow-duration="1s" data-wow-delay="1s")
+        div(class="container")
+            div(class="news-detail")
+                div(class="news-thumbnail")    
+                    img(src="../images//news/s1.svg",alt="news",class="img-fluid")
+                div(class="news-text")
+                    h4(class="title") The President of the University inaugurates the Digital Academic Advising Platform (Wajehni)
+                    article
+                        p His Excellency the President of the University, Prof. Abdul Rahman bin Hilal Al-Talhi, inaugurated the digital academic advising platform (Wajehni)
+                        p In the presence of their Excellencies, the University’s Vice Rector for Educational and Academic Affairs, Prof. Dr. Mashari bin Ayyad Al-Osaimi, the University’s Vice Rector for Graduate Studies and Scientific Research, Dr. Abdullah bin Nidal Addas, the Dean of Information Technology and Distance Education, Dr. Abdulaziz bin Abdullah Al-Daj, and the E-Learning Dean at the Deanship of Information Technology and Distance Education, Dr. Yousef Al-Harbi And the work team involved in the work of the digital platform (Wajehni), in conjunction with the implementation of the three-semester system, and in implementation of the recommendations of the Ministry of Education towards establishing centers for digital academic guidance in universities.
+                        p The Wajehni platform aims to raise the efficiency of academic advising by providing solutions for communication between students, academic supervisors, departments of departments and colleges, including analysis of student performance through graphs based on business intelligence techniques and integrating with all supporting academic systems.
+                div(class="single-news-carousel owl-carousel owl-theme")
+                    div(class="single-news-item")
+                        img(src="../images//news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images//news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images//news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images//news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images//news/slider1.svg",alt="news-1")        
+        div(class="share")
+            hr
+            div(class="news-option")
+                div(class="container")
+                    div(class="content")
+                        div(class="font-size")
+                            div(class="row g-3 align-items-center")
+                                div(class="col-auto")
+                                    label(for="inputPassword6", class="col-form-label") font size
+                                div(class="col-auto d-flex")
+                                    button(class="btn form-button") + 
+                                    button(class="btn form-button") -                                                                                     
+                        div(class="share-options")
+                            p
+                                | share 
+                                img(src="../images//icons/shareen.svg")
+                            ul(class="socail-media")
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-whatsapp") 
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-linkedin")                                                                                                                              
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-facebook")                                                                                                                              
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-twitter")             

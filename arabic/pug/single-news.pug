@@ -1,0 +1,60 @@
+extends index
+block home_block
+    div(class="main-breadcrumb")
+        div(class="container")
+            ul(class="breadcrumb")
+                li(class="breadcrumb-item")
+                    a(href="index.html") الرئيسية
+                li(class="breadcrumb-item active")
+                    a(href="#!") الاخبار 
+    div(class="single-news wow fadeInUp",  data-wow-duration="1s" data-wow-delay="1s")
+        div(class="container")
+            div(class="news-detail")
+                div(class="news-thumbnail")    
+                    img(src="../images/news/s1.svg",alt="news",class="img-fluid")
+                div(class="news-text")
+                    h4(class="title") رئيس الجامعة يدشّن منصة الإرشاد الأكاديمي الرقمي ( وجّهني )
+                    article
+                        p دشّن سعادة رئيس الجامعة الأستاذ الدكتور عبدالرحمن بن هلال الطلحي منصة الإرشاد الأكاديمي الرقمي (وجّهني)
+                        p بحضور أصحاب السعادة وكيل الجامعة للشؤون التعليمية والأكاديمية الأستاذ الدكتور مشاري بن عياد العصيمي و وكيل الجامعة للدراسات العليا والبحث العلمي الدكتور عبدالله بن نضال عداس، وعميد تقنية المعلومات والتعليم عن بُعد الدكتور عبدالعزيز بن عبدالله الداعج ووكيل التعلم الإلكتروني بعمادة تقنية المعلومات والتعليم عن بعد الدكتور يوسف الحربي وفريق العمل المشارك في عمل المنصة الرقمية (وجّهني)، وذلك تزامناً مع تطبيق نظام الفصول الثلاثة، وتطبيقاً لتوصيات وزارة التعليم نحو إنشاء مراكز للإرشاد الأكاديمي الرقمي بالجامعات.
+                        p تهدف منصة وجّهني إلى رفع كفاءة الإرشاد الأكاديمي وذلك بتوفير حلول للتواصل بين الطلاب، المشرفين الأكاديميين وإدارات الأقسام والكليات تتضمن تحليل الأداء الطلابي من خلال رسوم بيانية مبنية على تقنيات ذكاء الاعمال وبالتكامل مع كافة الأنظمة الاكاديمية المساندة.
+                div(class="single-news-carousel owl-carousel owl-theme")
+                    div(class="single-news-item")
+                        img(src="../images/news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images/news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images/news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images/news/slider1.svg",alt="news-1")        
+                    div(class="single-news-item")
+                        img(src="../images/news/slider1.svg",alt="news-1")        
+        div(class="share")
+            hr
+            div(class="news-option")
+                div(class="container")
+                    div(class="content")
+                        div(class="font-size")
+                            div(class="row g-3 align-items-center")
+                                div(class="col-auto")
+                                    label(for="inputPassword6", class="col-form-label") حجم الخط
+                                div(class="col-auto d-flex")
+                                    button(class="btn form-button") + 
+                                    button(class="btn form-button") -                                                                                     
+                        div(class="share-options")
+                            p
+                                | مشاركة 
+                                img(src="../images/icons/shareen.svg")
+                            ul(class="socail-media")
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-whatsapp") 
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-linkedin")                                                                                                                              
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-facebook")                                                                                                                              
+                                li 
+                                    a(href="#!")
+                                        i(class="bi bi-twitter")             
