@@ -386,6 +386,7 @@
     section{
         padding: 20px 0 !important;
     }
+    
     .all-decisions
     {
         a.btn-articles
@@ -396,15 +397,17 @@
     
     section.news--area 
     {
+        margin: 0 0;
         .title-with-border 
         {
             margin: 1rem 0;
             .border-between
             {
-                width:50% ;
+                width:40%;
             }
         }
     }
+        
     
     header {
         .top-part {
@@ -452,6 +455,109 @@
             padding: 1rem 0;
         }
     }
+    .kingdom-news 
+    {
+        .owl-theme 
+        {
+            .owl-nav [class*=owl-]
+            {
+                bottom: -10px; 
+                top: unset;
+                width: 30px;
+                height: 30px;
+                font-size: 15px;
+                i{
+                    padding: 0;
+                }
+                &.owl-prev{
+                    right: 40%;
+                }
+                &.owl-next{
+                    left: 30%;
+                }
+            }
+        }
+        }
+        section.news-section 
+        {
+            .content 
+            {
+                .news-box 
+                {
+                    .news-title 
+                    {
+                        h5
+                        {
+                            font-size: 14px;
+                        }
+                    }
+                     .news-meta 
+                     {
+                        .time
+                        {
+                            margin: 0;
+                            font-size: 10px;
+                        }
+                        .read-more 
+                        {
+                            a{
+                                font-size: 10px;
+                            }
+                        }
+                     }
+                }
+            }
+        }
+        section.article-section 
+        {
+            .content 
+            {
+                .article-box 
+                {
+                    .article-thumbnail 
+                    {
+                       img{
+                        min-height: 200px;
+                       }
+                        .author
+                        {
+                            position: absolute;
+                            bottom: 3px;
+                            width: auto;
+                            padding: 0px;
+                            z-index: 111;
+                            p{
+                                font-size: 10px;
+                                line-height: 20px;
+                                padding: 0 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .read-more 
+        {
+            a{
+                font-size: 10px;
+            }
+        }
+        section.decisions-section 
+        {
+            .content 
+            {
+                .decision-box 
+                {
+                    .title 
+                    {
+                        a
+                        {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
     section.reports{
         &::after
         {
@@ -479,6 +585,53 @@
         }
         &::after,&::before{
             content: unset;
+        }
+    }
+    section.report-section{
+     
+        .report-box,.article-box
+       {
+         margin-bottom: 1rem !important;
+        margin: 1rem 0;
+        .article-text{
+            h5{
+                a{
+                    font-size: 12px !important;
+                }
+            }
+        }
+       }
+    }
+    .single-article
+    {
+        .article-detail
+        {
+            margin: 0.5rem 0 !important;
+            .article-text{
+                h4.title{
+                    font-size: 14px !important;
+                    padding: 0.5rem 0;
+                }
+              article  p{ 
+                    font-size: 12px;
+                    line-height: 30px;
+                    text-align: justify; 
+                }
+                .article-author 
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    section.article-section 
+    {
+        .content 
+        {
+            .article-box
+            {
+                
+            }
         }
     }
     .socaity 
@@ -579,9 +732,11 @@
     {
         .content
         {
-            margin: 2rem 0rem;
+            margin: 1rem 0rem;
+            display: block;
             .share-options
             {
+                margin-top: 1rem;
                 p,ul{
                     margin-bottom: 0;
                 }
@@ -595,11 +750,31 @@
             .modal-text 
             {
                 h4{
-                    font-size: 15px;
-                }
-                p{
                     font-size: 12px;
                 }
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    section.mag-servcies-section 
+    {
+        .magazine-services 
+        {
+            .magazine-grid
+            {
+                gap: 5%;
+            }
+        }
+    }
+    section.contact-us 
+    {
+        .page-description 
+        {
+            p{
+                text-align: inherit;
+                font-size: 13px;
             }
         }
     }
